@@ -1,0 +1,17 @@
+# The default manifest file to be used in this repository.
+
+manifest:
+  defaults:
+    remote: zephyrproject-rtos
+    revision: master
+
+  remotes:
+    - name: zephyrproject-rtos
+      url: https://github.com/zephyrproject-rtos
+
+  projects:
+    - name: zephyr
+    - name: west
+    - name: net-tools
+    - name: Kconfiglib
+      path: ext/scripts/Kconfiglib
