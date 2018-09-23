@@ -1,4 +1,4 @@
-# The default manifest file to be used in this repository.
+# The default West manifest file to be used for Zephyr.
 
 manifest:
   defaults:
@@ -11,7 +11,3 @@ manifest:
 
   projects:
     - name: zephyr
-    - name: net-tools
-    - name: Kconfiglib
-      revision: zephyr
-      path: ext/scripts/Kconfiglib
