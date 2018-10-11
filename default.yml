@@ -2,11 +2,11 @@
 
 manifest:
   defaults:
-    remote: zephyrproject-rtos
+    remote: upstream
     revision: master
 
   remotes:
-    - name: zephyrproject-rtos
+    - name: upstream
       url: https://github.com/zephyrproject-rtos
 
   projects:
