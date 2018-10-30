@@ -11,3 +11,4 @@ manifest:
 
   projects:
     - name: zephyr
+    - name: Kconfiglib
