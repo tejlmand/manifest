@@ -7,7 +7,9 @@ manifest:
 
   remotes:
     - name: upstream
-      url: https://github.com/zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
 
   projects:
     - name: zephyr
+    - name: openocd 
+
