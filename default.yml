@@ -11,4 +11,7 @@ manifest:
 
   projects:
     - name: zephyr
-    - name: west 
+    - name: mcuboot
+      path: zephyr/mcuboot
+    - name: west
+      path: zephyr/west
