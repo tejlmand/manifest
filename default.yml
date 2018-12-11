@@ -7,7 +7,10 @@ manifest:
 
   remotes:
     - name: upstream
-      url: https://github.com/zephyrproject-rtos
+      url-base: file:////projects/github
+#      url-base: https://github.com/zephyrproject-rtos
 
   projects:
     - name: zephyr
+      revision: d8285e4adff8589fc7def1965d7347a6e5cdc7a7
+
